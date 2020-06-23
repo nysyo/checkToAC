@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "CheckToAC",
+    "version": "1",
+
+    "content_scripts": [
+        {
+            "matches": ["https://wsdmoodle.waseda.jp/course/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
